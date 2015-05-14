@@ -26,7 +26,14 @@ Notes:	 Hand coded for Udemy.com
    Navbar
    -------------------------------------- */
 
+   #searchInput {
+      width: 200px;
+   }
    
+   /* Because YOURLOGO.png is larger then BT3 navbar size, so navbar becomes larger. It makes default row have space */
+   .navbar-brand {
+      padding: 13px 15px;
+   }
    
 /* --------------------------------------
    Carousel
