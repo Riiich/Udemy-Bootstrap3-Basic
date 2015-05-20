@@ -90,6 +90,7 @@ body {
    -------------------------------------- */
 .alert {
    margin-top: 20px;
+   display: none; /* Don't show it by default */
 }
 
 .well {
