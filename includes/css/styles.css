@@ -113,7 +113,9 @@ body {
 }
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 768px) {
+/* Suggest: put 767px, not 768px, to avoid portiait iPads producing SMALL CSS while bootstrap.css is still in MEDIUM mode.*/
+/* Things like .visible-sm and hidden-sm don't happen until 767px, which 1px smaller then the iPAd screen.*/
+@media (max-width: 767px) {
 	#myCarousel .item {
       height: 310px;
    }
