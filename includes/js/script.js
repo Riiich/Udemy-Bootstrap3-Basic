@@ -18,4 +18,10 @@ $(function() {
 		$('successAlert').slidedown();
 	});
 
+	$('a.pop').click(function(e) {
+		e.preventDefault();	/* Act dafaultly: No refershing home page */
+	});
+
+	$('a.pop').popover();
+
 });
