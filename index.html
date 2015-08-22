@@ -280,7 +280,7 @@
 										<div class="modal-body">
 											<h4>Text in modal windwos</h4>
 
-											<p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+											<p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
 											<h4>Popover in a modal</h4>
 											<a href="#" class="btn btn-danger pop">don't click this button</a>
@@ -292,7 +292,28 @@
 
 											<p><small class="text-muted">PS. This form doesn't do anything.</small></p>
 
-											<form>
+											<form class="form-horizontal">
+												<div class="form-group">
+													<label class="col-lg-2 control-label" for="inputName">Name</label>
+													<div class="col-lg-10">
+														<input class="form-control" id="inputName" placeholder="Please input a name" type="text">
+													</div>
+												</div>
+
+												<div class="form-group">
+													<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+													<div class="col-lg-10">
+														<input class="form-control" id="inputEmail" placeholder="Please input an email" type="email">
+													</div>
+												</div>
+
+												<div class="form-group">
+													<label class="col-lg-2 control-label" for="inputEmail">Message</label>
+													<div class="col-lg-10">
+														<textarea class="form-control" id="inputMessage" placeholder="Please input a message" rows="3"></textarea>
+														<button class="btn btn-success pull-right" type="submit">Send!</button>
+													</div>
+												</div>
 											</form>
 										</div><!-- end modal-body -->
 										<div class="modal-footer">
