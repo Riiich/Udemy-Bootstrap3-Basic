@@ -24,4 +24,6 @@ $(function() {
 
 	$('a.pop').popover();
 
+	/* Select an attribute using [] */
+	$('[rel="tooltip"]').tooltip();
 });
