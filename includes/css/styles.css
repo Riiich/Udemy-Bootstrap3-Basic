@@ -25,6 +25,13 @@ Notes:	 Hand coded for Udemy.com
    margin-bottom: 15px;
 }
 
+footer {
+   background: #333;
+   color: #eee;
+   font-size: 11px;
+   padding: 20px;
+}
+
 /* --------------------------------------
    Typography
    -------------------------------------- */
@@ -46,6 +53,10 @@ body {
    margin-top: 0;
 }
 
+ul.unstyle {
+   list-style: none;
+   padding: 0;
+}
 
 /* --------------------------------------
    Navbar
